@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Socialyze</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about_first_para">Socialyze is an app that lets you create events with your friends/colleagues &amp; loved ones. Choose a name, choose a time, choose a location &amp; send your invitations - its that easy!</string>
+    <string name="about_second_para">You can use Socialyze for birthdays, anniversaries, team events or just a regular saturday-night get-together. Just send invitations to your friends, and stay connected.</string>
+    <string name="about_third_para">Lets Socialyze!</string>
+    
+      <string name="app_copy_right_first">Copyright 2014 </string>
+    <string name="app_copy_right_second">Hashtag services Pvt Ltd</string>
+
+</resources>

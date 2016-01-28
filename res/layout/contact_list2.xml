@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactListActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8e37d6"
+        android:orientation="horizontal"
+         >
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:id="@+id/selected_contacts"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Selected"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            />
+        
+       <Button
+            android:id="@+id/Send_sms_list_btn_and"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_marginLeft="50dp"
+            android:text="Send"
+            android:textColor="@android:color/white" >
+        </Button>
+
+      <!--  <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/contact_main_et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:singleLine="true"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/search"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp" />  -->
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

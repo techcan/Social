@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#4F2383" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="New Event"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp" >
+
+            <EditText
+                android:id="@+id/eventname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Event Name"
+                android:textColor="#4F2383"
+                android:singleLine="true"
+                android:textSize="22sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/eventname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4F2383"
+                android:layout_marginTop="25dp"
+                android:ems="10" android:textSize="22sp" 
+                android:hint="Date" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/eventname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4F2383"
+                android:layout_marginTop="25dp"
+                android:ems="10" android:textSize="22sp" 
+                android:hint="Start Time" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/eventname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4F2383"
+                android:layout_marginTop="25dp"
+                android:ems="10" android:textSize="22sp" 
+                android:hint="End Time" >
+            </EditText>
+
+            <Button
+                android:id="@+id/invite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="#4F2383"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp" android:textSize="22sp" 
+                android:text="Choose Restaurant"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/socialyze_bottom_logo" />
+    </LinearLayout>
+
+</LinearLayout>

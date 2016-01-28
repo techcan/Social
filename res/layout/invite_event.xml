@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#4F2383" >
+
+            <TextView
+                android:id="@+id/eventname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Event Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp" >
+
+                <EditText
+                    android:id="@+id/eventdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Date"
+                    android:textColor="#4F2383"
+                    android:textSize="22sp" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/eventstarttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Start Time"
+                    android:textColor="#4F2383"
+                    android:textSize="22sp" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/eventendtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="End Time"
+                    android:textColor="#4F2383"
+                    android:textSize="22sp" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/eventrestaurantname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Event Restaurant Name"
+                    android:textColor="#4F2383"
+                    android:textSize="22sp" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/eventrestaurantaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:hint="Event Restaurant Address"
+                    android:textColor="#4F2383"
+                    android:textSize="22sp" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/invite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#4F2383"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:text="Invite Friends"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/socialyze_bottom_logo" />
+    </LinearLayout>
+
+</LinearLayout>
